@@ -6,10 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Guess my Number</title>
 </head>
-
 <body>
+<h1>Can you Guess my number?</h1>
+
+<p>
+    Welcome to my number guessing game, before you begin please review the few rules below:
+    <ul>
+        <li>My number is somewhere between 0-20</li>
+        
+        <li>You have 4 chances to guess my number</li>
+
+        <li>After each guess I will tell you if your last guess was to low or to high</li>
+
+        <li>If you cheat there will be severe moral consquences</li>
+
+    </ul>
+    Input your guess below:    
+</p>
+
+    <input type="number">
+    <input type="submit" id="guessed" value="submit">
+
+
+    <div>Your Guess Was:<span id="user-guess"></span></div>
+</p>
+
+<div>Number of Guess's remaining is:<span id="guess-number"></span></div>
+
 
     <script src="app.js"></script>
 </body>
