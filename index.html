@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Guess my Number</title>
 </head>
-<body class="background">
+<body class="back">
 <h1>Can you Guess my number?</h1>
 
 <p>
@@ -26,14 +26,13 @@
     Input your guess below:    
 </p>
 
-    <input type="number" id="guessed-number">
+    <input type="number" id="user-input-guess">
     <input type="submit" id="submit" value="submit">
-
-
-    <div>Your Guess Was:<span id="user-guess"></span></div>
 </p>
+<form><button class="hidden" id="reset-button">Play Again</button></form>
+<div>Your Guess Was: <span id="guess-feedback"></span></div>
 
-<div>Number of Guess's remaining is:<span id="guess-number"></span></div>
+<div>Number of Guess's remaining is: <span id="guess-number"></span></div>
 
 
     <script type="module" src="app.js"></script>

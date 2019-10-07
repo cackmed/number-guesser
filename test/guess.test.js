@@ -39,15 +39,3 @@ test('compareNumber guess is equal to correctNumber', function(assert) {
     // Make assertions about what is expected valid result
     assert.equal(userguessisCorrect, 0);
 });
-test('compareNumber guess is not a number', function(assert) {
-    //Arrange
-    // Set up your parameters and expectations
-    const userGuess = 'invalid';
-    const correctNumber = 3;
-    //Act 
-    // Call the function you're testing and set the result to a const
-    const userguessisCorrect = compareNumber(userGuess, correctNumber);
-    //Assert
-    // Make assertions about what is expected valid result
-    assert.equal(userguessisCorrect, 'error');
-});

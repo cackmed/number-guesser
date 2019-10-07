@@ -1,2 +1,14 @@
-    
+.back {
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: groove;
+}
+
+
+
+.hidden {
+    display: none
+}
 
